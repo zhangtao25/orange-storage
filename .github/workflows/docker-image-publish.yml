@@ -35,7 +35,7 @@ jobs:
         run: |
           IMAGE_ID=$DOCKER_USERNAME/$IMAGE_NAME
 
-          # 转换成小写
+#           转换成小写1
           IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
 
           # 从版本中删除 github-ref Or github-sha 前缀
