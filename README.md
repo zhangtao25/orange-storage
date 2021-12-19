@@ -22,3 +22,6 @@ export class AppModule {}
 [//]: # (前端路由设计的话就简单点，设置一个公共路由，然后再根据用户类型拼装菜单，需要一个菜单生成的组建？)
 
 [//]: # (ProLayout 这种神器一定要用！！！！！！)
+
+docker run zhangtao25/na-example:83fc10c -e DB_CONFIG={"database":{"type":"mysql","host":"114.55.145.3","port":"18306","username":"root","password":"wjyy26303","database":"orange_dev"}}
+Unable to find image 'zhangtao25/na-example:83fc10c' locally
